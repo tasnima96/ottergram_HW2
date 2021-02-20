@@ -112,6 +112,11 @@ a {
     transition: transform 333ms cubic-bezier(1, .06, .28, 1);
 }
 
+#previous:hover, #next:hover {
+    background-color: blue;
+    color: white;
+}
+
 #previous{
   cursor: pointer;
   position: absolute;
